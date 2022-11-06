@@ -1,3 +1,15 @@
+import { useEffect, useState } from 'react';
+
 export function App() {
-  return <h1>Popup page</h1>;
+  const [number, setNumber] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setNumber(n => n + 1);
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return <h1>{number}</h1>;
 }

@@ -1,0 +1,31 @@
+{
+  "name": "sample-react-parcel-webextension",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension --no-source-maps",
+    "build:heavy": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.7.0",
+    "@parcel/core": "^2.7.0",
+    "@types/chrome": "^0.0.200",
+    "@types/firefox": "^0.0.31",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "alias": {
+    "process": {
+      "global": "process"
+    }
+  }
+}

@@ -4,14 +4,15 @@
   "description": "",
   "scripts": {
     "clean": "rimraf dist",
-    "start": "yarpm clean && parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
-    "build": "yarpm clean && parcel build src/manifest.json --config @parcel/config-webextension --no-source-maps",
+    "start": "nr clean && parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "nr clean && parcel build src/manifest.json --config @parcel/config-webextension --no-source-maps",
     "build:heavy": "parcel build src/manifest.json --config @parcel/config-webextension"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@antfu/ni": "^0.18.5",
     "@parcel/config-webextension": "^2.7.0",
     "@parcel/core": "^2.7.0",
     "@types/chrome": "^0.0.200",
@@ -19,8 +20,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "parcel": "^2.7.0",
-    "rimraf": "^3.0.2",
-    "yarpm": "^1.1.1"
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "react": "^18.2.0",

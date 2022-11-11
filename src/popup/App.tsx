@@ -5,7 +5,7 @@ export function App() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setNumber(n => n + 1);
+      setNumber((n) => n + 1);
     }, 1000);
 
     return () => clearInterval(intervalId);

@@ -4,7 +4,7 @@ specifiers:
   '@antfu/ni': ^0.18.5
   '@parcel/config-webextension': ^2.7.0
   '@parcel/core': ^2.7.0
-  '@types/chrome': ^0.0.200
+  '@types/chrome': ^0.0.203
   '@types/firefox': ^0.0.31
   '@types/react': ^18.0.25
   '@types/react-dom': ^18.0.8
@@ -21,7 +21,7 @@ devDependencies:
   '@antfu/ni': 0.18.5
   '@parcel/config-webextension': 2.8.0_@parcel+core@2.8.0
   '@parcel/core': 2.8.0
-  '@types/chrome': 0.0.200
+  '@types/chrome': 0.0.203
   '@types/firefox': 0.0.31
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
@@ -946,8 +946,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@types/chrome/0.0.200:
-    resolution: {integrity: sha512-oNT2/KHgZECTzj4oavLc20r3D2yFufLwGNaLFAN8YxYyNVJGenX3l3oGBynhoT/Azm3eAfyDynrdca6jB7CNzw==}
+  /@types/chrome/0.0.203:
+    resolution: {integrity: sha512-JlQNebwpBETVc8U1Rr2inDFuOTtn0lahRAhnddx1dd0S5RrLAFJEEsyIu7AXI14mkCgSunksnuLGioH8kvBqRA==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.9

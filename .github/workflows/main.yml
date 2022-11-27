@@ -23,16 +23,8 @@ jobs:
         run: pnpm install
       - name: Build extension
         run: pnpm build
-      - name: Create CRX package
-        run: |
-          chrome_version=$(google-chrome-stable --version)
-          echo "Creating CRX package with $chrome_version"
-          google-chrome-stable --no-message-box --pack-extension=$(pwd)/dist
-          stat ./dist.crx ./dist.pem
-      - name: Save extension artifact
+      - name: Create ZIP package
         uses: actions/upload-artifact@v3
         with:
           name: extension
-          path: |
-            ./dist.crx
-            ./dist.pem
+          path: dist/*

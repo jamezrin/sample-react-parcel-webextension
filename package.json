@@ -15,7 +15,7 @@
     "@antfu/ni": "^0.18.5",
     "@parcel/config-webextension": "^2.7.0",
     "@parcel/core": "^2.7.0",
-    "@types/chrome": "^0.0.208",
+    "@types/chrome": "^0.0.212",
     "@types/firefox": "^0.0.31",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",

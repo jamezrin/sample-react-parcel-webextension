@@ -24,7 +24,7 @@ jobs:
       - name: Build extension
         run: pnpm build
       - name: Create ZIP package
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: extension
           path: dist/*

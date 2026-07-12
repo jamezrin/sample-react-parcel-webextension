@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^0.0.235
     version: 0.0.235
   '@types/firefox':
-    specifier: ^0.0.31
-    version: 0.0.31
+    specifier: ^0.0.34
+    version: 0.0.34
   '@types/react':
     specifier: ^18.0.25
     version: 18.0.25
@@ -981,8 +981,8 @@ packages:
     resolution: {integrity: sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==}
     dev: true
 
-  /@types/firefox@0.0.31:
-    resolution: {integrity: sha512-GFamkvAUHpv41OvKSCbFX8HVqIFr8wIWhrUzD/7weQv4dFAdxoZfTj0mB+DJtxTlnw3oJyp1ZNt69TL4PP7ZMg==}
+  /@types/firefox@0.0.34:
+    resolution: {integrity: sha512-1T2L97PEDzzkrEeBsZnGy6lhRPaVltoheM1fbG9J3raEpYXayhwwD97p2cXKGY4PAIhl0m0gAyLfX0mLQhutOw==}
     dev: true
 
   /@types/har-format@1.2.9:

@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@antfu/ni':
-    specifier: ^0.21.0
-    version: 0.21.0
+    specifier: ^0.23.0
+    version: 0.23.2
   '@parcel/config-webextension':
     specifier: ^2.7.0
     version: 2.8.0(@parcel/core@2.8.0)
@@ -43,8 +43,8 @@ devDependencies:
 
 packages:
 
-  /@antfu/ni@0.21.0:
-    resolution: {integrity: sha512-phPNXsOEQKbv8LbKTVIzT6Oczl1gG6GNwb62IFZqKxHZdVmKnafUZhaZms6AdpDej5BsFZWj2xFVISw9gjW2cQ==}
+  /@antfu/ni@0.23.2:
+    resolution: {integrity: sha512-FSEVWXvwroExDXUu8qV6Wqp2X3D1nJ0Li4LFymCyvCVrm7I3lNfG0zZWSWvGU1RE7891eTnFTyh31L3igOwNKQ==}
     hasBin: true
     dev: true
 

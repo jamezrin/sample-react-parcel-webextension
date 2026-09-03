@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
+    "@antfu/ni": "^30.0.0",
     "@parcel/config-webextension": "^2.7.0",
     "@parcel/core": "^2.7.0",
     "@types/chrome": "^0.2.0",

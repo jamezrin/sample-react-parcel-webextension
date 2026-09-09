@@ -17,14 +17,14 @@
     "@parcel/core": "^2.7.0",
     "@types/chrome": "^0.2.0",
     "@types/firefox": "^0.0.34",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "parcel": "^2.7.0",
     "rimraf": "^5.0.0"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "alias": {
     "process": {

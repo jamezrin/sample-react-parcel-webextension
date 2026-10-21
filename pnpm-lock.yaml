@@ -24,7 +24,7 @@ devDependencies:
     version: 2.16.4
   '@types/chrome':
     specifier: ^0.3.0
-    version: 0.3.5
+    version: 0.3.6
   '@types/firefox':
     specifier: ^0.0.34
     version: 0.0.34
@@ -1351,21 +1351,10 @@ packages:
       '@swc/counter': 0.1.3
     dev: true
 
-  /@types/chrome@0.3.5:
-    resolution: {integrity: sha512-7HYsK7xalNxzLwGrP9lkCQPAA6V56VtPpOmv2CQnBnMzX5/Hpr+Iv5fqaIOIY/H/Q6ZBksLmurWh7zXPcZ4B7Q==}
+  /@types/chrome@0.3.6:
+    resolution: {integrity: sha512-NXCrCBefCHCKMVbkaxfBQqyP766Wg85S2FQhixCCxq7AtjJwoEaja2y5NSqCzpihIi9mPqhaF5RuybTnrdYD2Q==}
     dependencies:
-      '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
-    dev: true
-
-  /@types/filesystem@0.0.36:
-    resolution: {integrity: sha512-vPDXOZuannb9FZdxgHnqSwAG/jvdGM8Wq+6N4D/d80z+D4HWH+bItqsZaVRQykAn6WEVeEkLm2oQigyHtgb0RA==}
-    dependencies:
-      '@types/filewriter': 0.0.33
-    dev: true
-
-  /@types/filewriter@0.0.33:
-    resolution: {integrity: sha512-xFU8ZXTw4gd358lb2jw25nxY9QAgqn2+bKKjKOYfNCzN4DKCFetK7sPtrlpg66Ywe3vWY9FNxprZawAh9wfJ3g==}
     dev: true
 
   /@types/firefox@0.0.34:

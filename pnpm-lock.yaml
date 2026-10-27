@@ -24,7 +24,7 @@ devDependencies:
     version: 2.16.4
   '@types/chrome':
     specifier: ^0.3.0
-    version: 0.3.6
+    version: 0.3.7
   '@types/firefox':
     specifier: ^0.0.34
     version: 0.0.34
@@ -1351,8 +1351,8 @@ packages:
       '@swc/counter': 0.1.3
     dev: true
 
-  /@types/chrome@0.3.6:
-    resolution: {integrity: sha512-NXCrCBefCHCKMVbkaxfBQqyP766Wg85S2FQhixCCxq7AtjJwoEaja2y5NSqCzpihIi9mPqhaF5RuybTnrdYD2Q==}
+  /@types/chrome@0.3.7:
+    resolution: {integrity: sha512-jWZgbHqWbTL1a5+PoyN0OJutNyejWgyZ5MdcvKo6iJE1TNRtXR3FxsC4WzNl52yZWPidfWC8NV/VUNZf+OFKcA==}
     dependencies:
       '@types/har-format': 1.2.16
     dev: true

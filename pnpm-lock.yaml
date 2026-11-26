@@ -30,10 +30,10 @@ devDependencies:
     version: 0.0.34
   '@types/react':
     specifier: ^18.0.25
-    version: 18.3.31
+    version: 18.3.32
   '@types/react-dom':
     specifier: ^18.0.8
-    version: 18.3.7(@types/react@18.3.31)
+    version: 18.3.7(@types/react@18.3.32)
   parcel:
     specifier: ^2.7.0
     version: 2.16.4
@@ -1369,19 +1369,19 @@ packages:
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
     dev: true
 
-  /@types/react-dom@18.3.7(@types/react@18.3.31):
+  /@types/react-dom@18.3.7(@types/react@18.3.32):
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.31
+      '@types/react': 18.3.32
     dev: true
 
-  /@types/react@18.3.31:
-    resolution: {integrity: sha512-vfEqpXTvwT91yhmwdfouStN2hSKwTvyRs8qpLfADyrq/kxDw0hZM7Wk9Ug1FELj8hIby+S/+kQCSRFF32nv2Qw==}
+  /@types/react@18.3.32:
+    resolution: {integrity: sha512-hKTeN+STHjfr2eS1uLImPsGpmIQD5SD8DUTQ+14zSne5CTwRpYh25ggOKG/pFIs2r0JmNYrSv4ZqIL07ipSvOA==}
     dependencies:
       '@types/prop-types': 15.7.15
-      csstype: 3.2.3
+      csstype: 3.2.4
     dev: true
 
   /ansi-regex@5.0.1:
@@ -1492,8 +1492,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /csstype@3.2.3:
-    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+  /csstype@3.2.4:
+    resolution: {integrity: sha512-PoKaoPzQapnEoqUSnHx1u6W6ku8CVEgKsnpmmzU3m1nwkidpPBQ8V/Zq2+bWNrsOKoKLwTGdbx6xF7BXP1zLVQ==}
     dev: true
 
   /detect-libc@1.0.3:
